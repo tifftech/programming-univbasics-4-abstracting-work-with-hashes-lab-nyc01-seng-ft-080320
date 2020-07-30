@@ -1,13 +1,48 @@
-def my_hash_creator(key, value)
-  # return a hash that includes the key and value parameters passed into this method
+def my_hash
+
+  my_hash = {
+    "my_name" => "mel",
+    "my_height" => "9 feet 10 inches",
+    "my_weight" => "300 Kilograms",
+  }
+
 end
 
-def read_from_hash(hash, key)
-  # return the correct value using the hash and key parameters
+
+def shipping_manifest
+  the_manifest = {
+                  "whale bone corsets" => 5,
+                  "porcelain vases" => 2,
+                  "oil paintings" => 3
+                 }
+
 end
 
-def update_counting_hash(hash, key)
-  # given a hash an a key as parameters, return an updated hash
-  # if the provided key is not present in the hash, add it and assign it to the value of 1
-  # if the provided key is present, increment its value by 1
+def retrieval
+  shipping_manifest = {
+                  "whale bone corsets" => 5,
+                  "porcelain vases" => 2,
+                  "oil paintings" => 3
+                 }
+                 
+  shipping_manifest["oil paintings"]
+end
+
+def adding
+  shipping_manifest = {
+                  "whale bone corsets" => 5,
+                  "porcelain vases" => 2,
+                  "oil paintings" => 3
+                 }
+ 
+  shipping_manifest["muskets"] = 2
+
+
+
+  shipping_manifest["gun powder"] = 4
+
+
+
+  
+
 end
